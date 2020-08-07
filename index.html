@@ -1,85 +1,194 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Модуль 1</title>
     <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <title>Ansioluettelo</title>
 </head>
+
 <body>
+    <!--main container-->
+    <div class="wrapper">
+        <aside class="sidebar">
+            <img class="my-photo" src="./images/me.jpg" alt="My foto">
+        
+            <!--Contacts-->
+            <div class="contact-container">
+
+                <div>
+                    <h3 class="tech-skills-title">Yhteydenotto</h3>
+                    <span class="contacts-link-type">P:</span>
+                    <a class="contacts-link" href="tel:+358406581032"><span class="">+358406581032</span></a>
+                </div>
+                <div>
+                    <span class="contacts-link-type">S:</span>
+                <a class="contacts-link" href="mailto:iromjalis@gmail.com"><span class="">iromjalis@gmail.com</span></a>
+                </div>
+            </div>
+
+            <!--ATK taidot-->
+            <div class="tech-skills-container">
+                <h3 class="tech-skills-title">ATK-taidot</h3>
+                <ul>
+                    <li class="tech-skills-item"><span class="tech-skills-text">Microsoft Word</span></li>
+                    <li class="tech-skills-item"><span class="tech-skills-text">Microsoft Excel</span></li>
+                    <li class="tech-skills-item"><span class="tech-skills-text">Visma Fivaldi</span></li>
+                    <li class="tech-skills-item"><span class="tech-skills-text">Maestro</span></li>
+                    <li class="tech-skills-item"><span class="tech-skills-text">Expera</span></li>
+                    <li class="tech-skills-item"><span class="tech-skills-text">Asteri</span></li>
+                    <li class="tech-skills-item"><span class="tech-skills-text">Microsoft Dinamic NAV</span></li>
+                    <li class="tech-skills-item"><span class="tech-skills-text">Procountor(perusteet)</span></li>
+                    <li class="tech-skills-item"><span class="tech-skills-text">PowerPoint (perusteet)</span></li>
+                    <li class="tech-skills-item"><span class="tech-skills-text">Windows</span></li>
+                </ul>
+            </div>
+
+            <!--Kielitaidot-->
+            <div  class="tech-skills-container">
+                <h3 class="tech-skills-title">Kielitaito</h3>
+                <ul>
+                    <li class="tech-skills-item"><span class="tech-skills-text">Suomi</span>
+                        <span class="contacts-link"></span><span class="contacts-link">...........[Hyvä]</span>
+                    </li>
+                    <li class="tech-skills-item"><span class="tech-skills-text">Englanti</span>
+                        <span class="contacts-link"></span><span class="contacts-link">......[Hyvä]</span>
+                    </li>
+                    <li class="tech-skills-item"><span class="tech-skills-text">Viro</span>
+                        <span class="contacts-link"></span><span class="contacts-link">..................[Hyvä]</span>
+                    </li>
+                    <li class="tech-skills-item"><span class="tech-skills-text">Venäjä</span>
+                        <span class="contacts-link"></span><span class="contacts-link">..........[Äidinkieli]</span>
+                    </li>
+                </ul>
+            </div>
+            
+
+            <!--Harrastukset-->
+            <div class="tech-skills-container">
+                <h3 class="tech-skills-title">Harrastukset</h3>
+                <ul>
+                    <li class="tech-skills-item"><span class="tech-skills-text">Kävely</span></li>
+                    <li class="tech-skills-item"><span class="tech-skills-text">Matkailu</span></li>
+                    <li class="tech-skills-item"><span class="tech-skills-text">Elokuvat</span></li>
+                    <li class="tech-skills-item"><span class="tech-skills-text">Uinti</span></li>
+                </ul>
+            </div>
+
+            <!--Muut taidot-->
+            <div class="tech-skills-container">
+                <h3 class="tech-skills-title">Muut</h3>
+                <ul>
+                    <li class="tech-skills-item"><span class="tech-skills-text">Ajokortti B2</span></li>
+                    <li class="tech-skills-item"><span class="tech-skills-text">Hygieniapassi, </span> <span class="contacts-link">myönnetty 8.7.2020</span></li>
+                </ul>
+            </div>
+            
+        </aside>
+
+        <!--about me container-->
+            <div  class="about-me-contrainer">
+                
+                <!--about me main info-->
+                <div class="info-container">
+                    <h1 class="name">Irina Romjalis</h1>
+
+                    <p class="description"> 
+                        Valmistuin kirjanpitäjäksi maaliskuussa 2018. Omaan kuitenkin jo usean vuoden työkokemuksen alan tehtävistä. Työntekijänä olen tehokas ja tottunut työskentelemään paineen alla. Tavoitteenani on työskennellä mielenkiintoisten ja haastavien ongelmien parissa työtehtävissä jotka tukevat ammatillista kehittymistäni.
+
+                    </p>
+                </div>
+
+                <!--Work experience-->
+                <div class="about-me-container">
+                    <h3 class="about-me-title">Työkokemus</h3>
+
+                    <!--company 1-->
+                    <div>
+                    <h4 class="profession-title">
+                        <span class="contacts-link">Taloussassistentti</span>
+                        Eezy Oyj / Avecra Oy (VR-Yhtymä Oy:n omistama ravintolayhtiö)</h4>
+                    <span class="profession-time">Joulukuu 2018-Maaliskuu 2020</span>   
+                    <p class="description-company"><span class="tech-skills-item">Tehtävät:</span> tarkastaa myyntien ja käteisen, kirjata tilitykset ja täsmätä joka päivä, tarkasta ravintolavaunujen tilitysmateriaalien ja muita avustava tehtäviä.</p>
+                    </div>
+
+                    <!--company 2-->
+                    <div>
+                        <h4 class="profession-title"> 
+                            <span class="">Toimistoavustajan työharjoittelu</span>
+                             Maria Perhekeskus Ry</h4>
+                        <span>Joulukuu 2018-Maaliskuu 2020</span>   
+                        <p ><span class="tech-skills-item">Tehtävät:</span> vastata kysymiksiin sähköpostilla, puhelimeen.</p>
+                    </div>
+
+                    <!--company 3-->
+                    <div>
+                        <h4 class="profession-title"> Ostoreskontranhoitaja Lease Deal Group Oyj</h4>
+                        <span>Toukokuu 2018-Elokuu 2018</span>   
+                        <p><span class="tech-skills-item">Tehtävät:</span> käsittellä ostolaskujen ja tiliöintien; täsmäyttää tasetiliä;	kirjata suoritusten	myyntireskontraan, kirjata myyntisaamisten pankkitileiltä ja rahoituserittelyiltä.</p>
+                    </div>
+                        
+                    <!--company 4-->
+                    <div>
+                        <h4 class="profession-title"> Kirjanpidon työharjoittelu Lease Deal Group Oyj</h4>
+                        <span>Tammikuu 2018-Maaliskuu 2018</span>   
+                        <p><span class="tech-skills-item">Tehtävät:</span> käsittellä ostolaskujen ja tiliöintien; täsmäyttää tasetiliä;	kirjata suoritusten	myyntireskontraan, kirjata myyntisaamisten pankkitileiltä ja rahoituserittelyiltä.</p>
+                    </div>
+
+                    <!--company 5-->
+                    <div>
+                        <h4 class="profession-title"> Kirjanpidon työharjoittelu Asiakasturva Oy</h4>
+                        <span>Maaliskuu 2017-Toukokuu 2017</span>   
+                        <p><span class="tech-skills-item">Tehtävät:</span> ylläpitää ja käsittellä asiakasrekisterin, tehdä 	asiakaspalvelua, 	käsittellä postin , ylläpitää ostoreskontran Visma 	Fivaldi:ssa.</p>
+                    </div>
     
-    <header class="">
-       <nav>
-            <a href="/">photo</a>
-            <ul>
-                <li><a href="">Features</a></li>
-                <li><a href="">Pricing</a></li>
-                <li><a href="">Community</a></li>
-                <li><a href="">Support</a></li>
-            </ul>
+                </div>
 
-            <ul>
-                    <li><a href="">Log in</a></li>
-                    <li><a href="">Register</a></li>
-            </ul>
-       </nav>
+                <!--Education-->
+                <div>
+                    <h3 class="about-me-title">Koulutus</h3>
+                    <ul>
+                        <li>27.11.18-5.3.19	Maahanmuuttajan kirjanpito, Vantaan aikuisopistotalo, Niemi Jyrki</li>
+                        <li>1.12.18-9.12.18 	Yrittäjän käytännön kirjanpitoa kirjanpito-ohjelmalla, Vantaan 	aikuisopistotalo, Niemi Jyrki</li>
+                        <li>2016-2018 	Omnian ammatikoulu, Liiketalous ja talouspalvelut; merkonomi</li>
+                        <li>2007-2011 	Tallinna Merkonomi Koulu, kirjanpito, budjetointi</li>
+                        <li>1995-2007   Tallinna Reaalkool, matematiikka luokka</li>
+                    </ul>
+                </div>
 
-    </header>
 
-    <div>
-        <section>
-            <h1>The largest community of photo enthusiasts</h1>
-            <a href="">Join Today</a>
-        </section>
+                <!--Luonne-->
+                <div>
+                    <h3 class="about-me-title">Luonne</h3>
+                    Olen ahkera, vastuuntuntoinen ja oma-aloitteinen. Tulen hyvin eristen ihmisten kanssa toimeen sekä kokeilen ja opin mielelläni uusia asioita.
+                </div>
+
+                <!--Project /suosittelijat/ container-->
+                <div> 
+                    <h3 class="about-me-title">Suosittelijat</h3>
+                    <ul>
+                        <li>Kirsi Adolfsson, VR-Yhtimä Oy
+                            <ul>
+                                <li><a href="tel:0408660189">puh. 040 8660 189</a> </li>
+                                <li><a href="mailto:kirsi.adolfsson@vr.fi ">kirsi.adolfsson@vr.fi </a></li>
+                            </ul>
+                        </li>
+            
+                        <li>Jarmo Sassi, LeaseDeal Group Oy</li>
+                        <ul>
+                            <li><a href="tel:0408411585">puh. 040 841 1585</a> </li>
+                            <li><a href="mailto:jarmo.sassi@leasedealgroup.com">jarmo.sassi@leasedealgroup.com </a></li>
+                        </ul>
+                    </ul>
+                </div>
+
+                
+            </div>
+
+        
     </div>
 
-    <section>
-        <h2>Snap photos and share like
-            <br>
-            never before</h2>
-        
-        <ul>
-            <li>
-                <h3>Sed ut perspicitis</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quam eum quasi tempora quaerat voluptates omnis soluta maiores veritatis. Repellat aut </p>
-                <a href="">Learn more</a>
-            </li>
-            <li>
-                <h3>Loperm ipsum dolor</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui nisi quasi culpa quidem inventore asperiores nulla officia maxime laudantium. Ducim</p>
-                <a href=""Learn more></a>
-            </li>
-            <li>
-                <h3>Nemo enim ipsam</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quam eum quasi tempora quaerat voluptates omnis soluta maiores veritatis. Repellat aut </p>
-                <a href="">Learn more</a>
-            </li>
-            <li>
-                <h3>Tempor incididunt</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quam eum quasi tempora quaerat voluptates omnis soluta maiores veritatis. Repellat aut </p>
-                <a href="">Learn more</a>
-            </li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>Примеры работ</h2>
-
-        <ul>
-            <li>
-                <img src="" alt="" width="750">
-                <h3>Sed ut perspiciatis unde omnis</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit consectetur quia commodi aut laborum molestias eaque id laboriosam consequatur quibusdam, aliquid</p>
-            </li>
-
-            <li>
-                <img src="" alt="" width="750">
-                <h3>Sed ut perspiciatis unde omnis</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit consectetur quia commodi aut laborum molestias eaque id laboriosam consequatur quibusdam, aliquid</p>
-            </li>
-        </ul>
-    </section>
-
-    
 </body>
 </html>
