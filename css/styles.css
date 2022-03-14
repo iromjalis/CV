@@ -5,7 +5,6 @@
     text-decoration: none;
 }
 
-
 body{
     font-family: 'Montserrat', sans-serif;
     background: #dee1e4;
@@ -34,6 +33,11 @@ body{
 
 .about-me-contrainer{
     padding:  60px ;
+    position: relative;
+}
+.about-me-container ul, .about-me-container li{
+    text-decoration: none;
+    list-style-type: none;
 }
 
 .contact-container{
@@ -41,6 +45,12 @@ body{
     margin-left: 10%;
     margin-top: 25px;
     margin-bottom: 10px;
+}
+.contact-container .contacts-link, .contact-container .contacts-link-type{
+    font-size: 12px;
+}
+.contact-container .contacts-link-type{
+    margin: 0;
 }
 .contacts-title{
     font-size: 20px;
@@ -51,12 +61,13 @@ body{
 }
 
 .contacts-link{
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 700;
     line-height: 16px;
     color: #87888b;
     margin-bottom: 10px;
     text-decoration: none;
+    text-align: left;
 }
 
 .contacts-link-type{
@@ -81,6 +92,9 @@ body{
     margin-top: 25px;
     margin-bottom: 10px;
 }
+.tech-skills-container li, .tech-skills-container .contacts-link{
+    font-size: 10px;
+}
 
 .tech-skills-item{
     font-size: 16px;
@@ -98,6 +112,7 @@ body{
     font-size: 40px;
     font-weight: 700;
     line-height: 30px;
+    margin-top: 0;
 }
 
 .description{
@@ -113,7 +128,9 @@ body{
 .info-container{
     margin-bottom: 25px;
 }
-
+.about-me-container ul{
+    text-decoration: none;
+}
 .about-me-title{
     font-size: 22px;
     font-weight: 700;
@@ -169,4 +186,10 @@ body{
 }
 p{
     text-align: justify;
+}
+.print{
+    font-size: large;
+    position: absolute;
+    top:30px;
+    right: 30px;
 }
