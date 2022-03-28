@@ -1,1 +1,1 @@
-https://iromjalis.github.io/my-resume/
+iromjalis.netlify.app/
